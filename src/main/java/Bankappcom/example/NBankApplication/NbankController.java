@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import jakarta.validation.Valid;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = {"*","https://banking-app-ktwk.onrender.com"})
 @RestController
 @RequestMapping("/api/accounts")
 public class NbankController {
